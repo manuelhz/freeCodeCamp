@@ -1,0 +1,123 @@
+label {
+  display:block;
+  margin-top:1.5rem;
+  margin-bottom: 0.5rem;
+}
+body {
+  font-size:17px;
+    }
+    label, h1, h3, .submit {
+      color:#dcdcdc;/*white*/
+    }
+h1 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+.wrapper {
+  background-color: blue;
+  opacity:0.6;
+  height:100%;
+  width: 100%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: -999;
+}
+
+.backgroundImage {
+  background-image: url(
+  "https://www.gannett-cdn.com/-mm-/45fabd89f11de1d8889d72046d582b3b53ec558d/c=0-280-5510-3393/local/-/media/2017/04/07/Phoenix/Phoenix/636271883793225849-SPARK-App-League-3.jpg?width=2560");
+    
+  filter: alpha(opacity=40);
+  opacity: 0.4;
+  height: 100%; 
+  width: 100%;
+	  
+  /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: -999;
+  }
+.text {
+	width: 75%;
+	z-index: 999;
+	margin-left:auto ;
+  margin-right:auto;
+
+		     
+}
+
+.inline {
+  display:inline;
+}
+label span {
+  font-size:0.9rem;
+}
+form {
+  margin-left:auto ;
+  margin-right:auto;
+}
+.title, .subTitle {
+  text-align:center;
+}
+.subTitle {
+  font-style: italic;
+  margin-top:0px;
+  font-family: "Open Sans";
+}
+form {
+  width:100%;
+}
+
+form {
+  max-width: 700px;
+  min-width: 300px;
+  background-color:rgba(0,0,59,0.8);
+}
+input, select, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding:0;
+  border:none;
+}
+input[type='checkbox'], input[type='radio']{
+  width:unset;
+  height:unset;
+}
+fieldset {
+  border: none;
+  padding: 2rem;
+}
+form, .submit, textarea {
+  border-radius:3px;
+}
+input, select {
+  border-radius:5px;
+}
+.submit {
+  background-color: #00994d;
+  margin-bottom:2rem;
+  margin-top:2rem;
+  height:3rem;
+}
+input, select {
+  height:2rem;
+  padding-left:1rem;
+}
+textarea {
+  height:6rem;
+  padding-left:1rem;
+  padding-top:0.5rem;
+}
+input[type='radio'], input[type='checkbox'] {
+  vertical-align:baseline;
+}

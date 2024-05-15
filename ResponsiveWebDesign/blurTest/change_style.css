@@ -1,0 +1,83 @@
+
+
+body
+{
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ background-color:#6C1A1A;
+ font-family:helvetica;
+ text-align:center;
+}
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+h1
+{
+ margin-top:50px;
+ color:#E39F9F;
+}
+h1 p
+{
+ font-size:14px;
+ color:white;
+}
+#wrapper div
+{
+ width:300px;
+ margin:30px;
+}
+#wrapper img
+{
+ width:100%;
+}
+#img1_wrapper:hover
+{
+ background-color: #A4A4A4;
+}
+#grey_img:hover
+{
+ -webkit-opacity: 0.4;
+ -moz-opacity: 0.4;
+ -o-opacity: 0.4;
+ -ms-opacity: 0.4;
+ opacity: 0.4;
+	
+ -webkit-filter: alpha(opacity=40);
+ -moz-filter: alpha(opacity=40);
+ -o-filter: alpha(opacity=40);
+ -ms-filter: alpha(opacity=40);
+ filter: alpha(opacity=40);
+}
+#img2_wrapper:hover
+{
+ background-color: #E6E6E6;
+}
+#white_img:hover
+{
+ -webkit-opacity: 0.4;
+ -moz-opacity: 0.4;
+ -o-opacity: 0.4;
+ -ms-opacity: 0.4;
+ opacity: 0.4;
+
+ -webkit-filter: alpha(opacity=40);
+ -moz-filter: alpha(opacity=40);
+ -o-filter: alpha(opacity=40);
+ -ms-filter: alpha(opacity=40);
+ filter: alpha(opacity=40);
+}
+#blur_img:hover
+{
+ -webkit-filter: blur(4px);
+ -moz-filter: blur(4px);
+ -o-filter: blur(4px);
+ -ms-filter: blur(4px);
+ filter: blur(4px);
+}
+
+
